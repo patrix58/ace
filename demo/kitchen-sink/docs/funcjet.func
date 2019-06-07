@@ -1,0 +1,9 @@
+a = parseInt: arg[1].
+b = parseInt: arg[2].
+print:
+    while:
+        $[2] != 0
+        { { #[1] #[2] #[1] % #[2] } }
+        a b a % b.[1]
+    .
+0
